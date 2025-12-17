@@ -1,5 +1,5 @@
 import { useEffect } from "react";
-import { useRef, getContext } from "react";
+import { useRef } from "react";
 
 const useCanvas = (draw) => {
   const ref = useRef();
@@ -21,7 +21,7 @@ const useCanvas = (draw) => {
     renderer();
 
     return () => window.cancelAnimationFrame(animationID);
-  }, []);
+  }, [draw]);
 
   return ref;
 };
