@@ -77,7 +77,7 @@ The project follows an **Object-Oriented (OOP)** approach wrapped in a React fun
 
 1.  **Clone the repository**
     ```bash
-    git clone [https://github.com/yourusername/solar-system-sim.git](https://github.com/yourusername/solar-system-sim.git)
+    git clone [https://github.com/Zhiperus/solar-system-simulation.git](https://github.com/Zhiperus/solar-system-simulation.git)
     cd solar-system-sim
     ```
 
